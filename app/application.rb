@@ -6,6 +6,7 @@ class Application
     elsif Time.now.hour <= 12
       resp.write("Good Afternoon!")
     end
+    resp.finish
   end
 
 end
